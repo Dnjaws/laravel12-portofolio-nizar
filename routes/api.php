@@ -1,0 +1,2 @@
+<?php
+// biarin kosong aja

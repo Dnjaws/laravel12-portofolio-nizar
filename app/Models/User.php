@@ -45,4 +45,26 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    //Relasi ke tabel lain
+
+    public function review()
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function wishlist()
+    {
+        return $this->hasMany(Wishlist::class);
+    }
+
+    public function gallery()
+    {
+        return $this->hasMany(DestinationGallery::class);
+    }
+
+    public function destinations()
+    {
+        return $this->hasMany(Destination::class);
+    }
 }

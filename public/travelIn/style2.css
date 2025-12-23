@@ -1,0 +1,161 @@
+body{
+    /* display: flex !important; */
+    height: 120vh !important;
+    /* justify-content: center; */
+    align-items: center;
+    background: url('img/1.jpg')no-repeat bottom left/cover;
+}
+
+header{
+    height: 20vh !important;
+    color: white !important;
+}
+nav{
+    position: static !important;
+    /* width: 100% !important; */
+    height: 100px !important;
+    /* padding:0 20px ; */
+}
+.raja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.utama{
+    border: solid 2px rgba(255, 255, 255, 0.633);
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.504);
+    backdrop-filter: blur(30px);
+    background-attachment: fixed;
+
+}
+.utama h3{
+    background-color: orange;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 9px;
+    border: solid 2px rgb(255, 198, 93);
+    position: relative;
+}
+.utama form .destination-des{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 25px;
+    margin-top: 40px;
+}
+
+.utama form .destination-des .input-box{
+    width: 100%;
+}
+
+.utama form .destination-des .detail-input{
+    display: block;
+    font-weight: 400;
+    color: white;
+    background: orange;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.utama form .destination-des .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-bottom-width: 2px;
+
+}
+.destination-des .input-box input:focus, .destination-des .input-box input:valid{
+    border-color: rgb(50, 190, 255);
+}
+.utama form .destination-des .input-box textarea{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.utama form .destination-des .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+input,
+select,
+textarea {
+    padding: 10px;
+    height: 45px;
+    box-sizing: border-box;
+}
+textarea {
+    height: auto; /* biar textarea tidak gepeng */
+}
+.submit-bt{
+    background: rgba(255, 166, 0, 0.679);
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border-radius: 9px;
+    border: 2px solid rgb(255, 198, 93);
+    transition: .5s ease;
+}
+.submit-bt:hover{
+    background: rgba(255, 255, 255, 0.349);
+    cursor: pointer;
+    color: orange;
+    border: 2px solid white;
+}
+.checkbox-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 16px;
+}
+.checkbox-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: black;
+}
+.checkbox-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+    accent-color: orange;
+}
+
+.checkbox-input {
+    width: 16px !important;
+    height: 16px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    accent-color: orange;
+}
+
+
+
